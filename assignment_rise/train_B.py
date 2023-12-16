@@ -15,7 +15,7 @@ from assignment_rise.utils.utils import prepare_compute_metrics
 from assignment_rise.utils.labels import SYSTEM_B_LABELS_ID
 
 def main():
-    print(">>>>>>>>>>>>>>>>>>>>>>If you haven't a MNERD dataset, it will take a while for downloading the dataset. Be Patience<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+    print(">>>>>>>>>>>>>>>>>>>>>>If you haven't a MNERD dataset downloaded, it will take a while for downloading the dataset. Be Patience<<<<<<<<<<<<<<<<<<<<<<<<<<<")
     model_name = 'roberta-large'
     tokenizer = AutoTokenizer.from_pretrained(model_name, add_prefix_space=True)
     data = NERDData('en', target_labels_id=SYSTEM_B_LABELS_ID, tokenizer=tokenizer)
