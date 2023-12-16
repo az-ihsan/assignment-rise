@@ -1,5 +1,5 @@
 # RISE Assignment: Research Engineer in Natural Language Processing
-Fine-tune the ROBERTA model on the NLP token classification task using the [MultiNERD (Named Entity Recognition Dataset)](https://huggingface.co/datasets/Babelscape/multinerd).
+Fine-tune the `roberta-large` model on the NLP token classification task using the [MultiNERD (Named Entity Recognition Dataset)](https://huggingface.co/datasets/Babelscape/multinerd).
 
 ## Installation 
 1. Clone the repository. 
