@@ -29,7 +29,7 @@ There are two possibilities to install the package and make sure the Python vers
 
 
 ## Train & Testing 
-Once the module `assignment-rise` is installed, you may train/fine-tune the model for the assignment.
+Once the package`assignment-rise` is installed, you may train/fine-tune the model for the assignment.
 1. Turn on the Python environment installed from the [above step](#installation)
 2. Go to [assignment_rise](/assignment_rise/) where you will find two files: `train_A.py` and `train_B.py`. 
 3. To train the system A, type `python train_A.py &` and to train the system B, type `python train_B.py`.
@@ -40,5 +40,7 @@ If the training is done, you may experiment with the model. In [examples](/assig
 
 
 ## Contact
+
 Ahmad Zainul Ihsan
+
 a.z.ihsan@icloud.com
