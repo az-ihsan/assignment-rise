@@ -2,10 +2,30 @@
 Fine-tune the `roberta-large` model on the NLP token classification task using the [MultiNERD (Named Entity Recognition Dataset)](https://huggingface.co/datasets/Babelscape/multinerd).
 
 ## Installation 
-1. Clone the repository. 
-2. The repository is based on [poetry](https://python-poetry.org/). If you have poetry installed, you must type `poetry install`, or there is also `requirements.txt` in the root directory for making a Python environment using the venv method.
+There are two possibilities to install the package and make sure the Python version > 3.10
+### Poetry
+1. Clone the repository and enter the downloaded repository.
+2. Install the poetry project
 
-Note: If you are using poetry, once the module is installed, to activate the environment, type `poetry shell`
+   ```poetry install```
+
+4. Activate the the environment
+
+   ```poetry shell```
+   
+### VENV
+1. Clone the repository and enter the downloaded repository.
+2. Make a python environment
+   
+   ```python3 -m venv ~/.virtualenvs/assignment-rise```
+3. Activate the virtual environment
+  
+   ```source ~/.virtualenvs/assignment-rise/bin/activate```
+
+4. If your command line prompt now has (assignment-rise) as prefix you have successfully activated your newly created virtual environment.
+5. Then, install the package
+   
+   ```pip install .```
 
 
 ## Train & Testing 
